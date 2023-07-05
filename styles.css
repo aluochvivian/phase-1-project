@@ -92,7 +92,12 @@ body {
     text-align: center;
   }
   
-  .title {
-    font-size: 48px;
+  .book-appointment {
+    font-size: 40px;
+    padding: 16px 82px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #eb5805;
+    margin-left: -240px;
   }
   
