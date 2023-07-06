@@ -184,9 +184,10 @@ section{
   padding:5rem;
 }
 
-.about .row .content h3{
-  font-size: 3rem;
+.about .row .content h1{
+  font-size: 5rem;
   color:var(--white);
+  font-weight: bolder;
 }
 
 .about .row .content p{
@@ -222,7 +223,7 @@ section{
   height: 5rem;
 }
 
-.about .content .icons-container .icons h3{
+.about .content .icons-container .icons h1{
   padding-top: 1rem;
   font-size: 1.6rem;
   color:#444;
@@ -231,3 +232,69 @@ section{
 }
 
 /* about */
+
+/* services */
+
+.services{
+  background-color: var(--main-color);
+}
+
+.services h1 {
+  color: #ffffff;
+}
+
+.services h3 {
+  color: #eb5805;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.services .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap:2rem;
+}
+
+.services .box-container .box{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.services .box-container .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.services .box-container .box:hover img {
+  transform: scale(1.1);
+}
+
+.services .box-container .box .content{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top:0; left:0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: var(--dark-bg);
+}
+
+.services .box-container .box .content h3{
+  text-align: center;
+  font-size: 3rem;
+  color:var(--white);
+  padding-top: 40rem;
+  text-transform: capitalize;
+}
+
+.services .box-container .box:hover .content{
+  display: flex;
+}
+
+
+/* services */
+
