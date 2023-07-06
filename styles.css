@@ -5,7 +5,7 @@
     --main-color: #00131EF7 ;
     --primary-color: #eb5805 ;
     --hover: #ffffff;
-    --black:#2a201c;
+    --black:#ffffff;
     --white:#fff;
     --light-bg:#f3efec;
     --dark-bg:rgba(0,0,0,.7);
@@ -67,3 +67,56 @@ section{
 .btn:hover{
   background: var(--hover);
 }
+
+/* header */
+
+.header{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  position: sticky;
+  top:0; left:0; right: 0;
+  background: var(--main-color);
+  z-index: 1000;
+}
+
+.header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:var(--black);
+  text-transform: capitalize;
+}
+
+.header .navbar #close-navbar {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: var(--black);
+  display: none;
+}
+
+.header .navbar a{
+  font-size: 2rem;
+  margin-left: 2rem;
+  color:var(--black);
+  text-transform: capitalize;
+}
+
+.header .navbar a:hover{
+  padding-bottom: 0.5rem;
+  color:var(--primary-color);
+}
+
+#menu-btn{
+  font-size: 2.5rem;
+  cursor: pointer;
+  color:var(--black);
+  display: none;
+}
+
+/* header */
