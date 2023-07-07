@@ -1,53 +1,28 @@
 {
-    "pricing": [
-      {
-        "id": 1,
-        "title": "basic",
-        "price": 1000,
-        "features": [
-          "Haircut",
-          "Hair Plugs",
-          "Styling",
-          "Locs"
-        ],
-        "duration": "1 hour",
-        "capacity": 10,
-        "max-time-taken": "2 hours",
-        "available-visits": 5,
-        "image": "https://media.istockphoto.com/id/1140211048/photo/client-during-beard-and-hair-grooming-in-barber-shop.jpg?s=612x612&w=0&k=20&c=sOU1k29QZVyZJ2f9plL8tcCoF7-iqwOYy0NDA033ajM="
-      },
-      {
-        "id": 2,
-        "title": "standard",
-        "price": 1500,
-        "features": [
-          "Styling",
-          "Haircut",
-          "Color Correction",
-          "Beard Treaming"
-        ],
-        "duration": "1.5 hours",
-        "capacity": 15,
-        "max-time-taken": "3 hours",
-        "available-visits": 8,
-        "image":"https://media.istockphoto.com/id/1272683526/photo/young-male-barber-working-on-a-clients-beard.jpg?s=612x612&w=0&k=20&c=q6CGrqKgMsdGTM069jSfxYL2S579qIHT6IuFrnJ8Hoc="
-      },
-      {
-        "id": 3,
-        "title": "premium",
-        "price": 2000,
-        "features": [
-          "Beard Triming",
-          "Extensions",
-          "Styling",
-          "Locs"
-        ],
-        "duration": "2 hours",
-        "capacity": 20,
-        "max-time-taken": "4 hours",
-        "available-visits": 10,
-        "image":"https://media.istockphoto.com/id/1279799263/photo/man-with-white-beard-in-barbershop-with-barbers-hands-with-cutting-and-shaving-instruments.jpg?s=612x612&w=0&k=20&c=vSFYvcsyeGp-uvk8OOboG96iMSqkrPhLX0OQvrdchfA="
-      }
-    ]
-  }
-  
+  "prices": [
+    {
+      "id": "1",
+      "title": "Basic",
+      "time": "1hr",
+      "capacity": 5,
+      "available-space": 3,
+      "image": "https://media.istockphoto.com/id/1185955900/photo/barber-shaves-the-beard-of-the-client.jpg?s=1024x1024&w=is&k=20&c=qrUHXYP4sFfnrR8tXXybMiKQkq1rv2R22JzbXK1PvaA="
+    },
+    {
+      "id": "2",
+      "title": "Standard",
+      "time": "2hr",
+      "capacity": 2,
+      "available-space": 1,
+      "image": "https://media.istockphoto.com/id/1449561669/photo/barber-brushing-designs-on-a-clients-hair.jpg?s=2048x2048&w=is&k=20&c=-JnUqf-X_GvKVA-5TJPJicC0q0cJBhlSYXLQ8Xlp4f8="
+    },
+    {
+      "id": "3",
+      "title": "Classic",
+      "time": "3",
+      "capacity": 1,
+      "available-space": 0,
+      "image": "https://thumbs.dreamstime.com/z/hair-style-stylist-barber-making-haircut-attractive-bearded-man-shop-shaving-razor-vintage-moustache-wax-143464346.jpg"
+    }
+  ]
+}
