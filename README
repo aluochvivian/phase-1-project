@@ -1,0 +1,56 @@
+# Men's Parlor
+
+This is a website for a men's parlor, showcasing various services, pricing, and other information. It provides a user-friendly interface for customers to explore and book services.
+
+## Features
+
+- Home section with a welcoming message
+- About Us section highlighting the stylists and the parlor's values
+- Premium Services section showcasing different services offered
+- Choose Your Styles section displaying different hairstyle options
+- Offer and Pricing section with different pricing packages
+- Blogs section featuring informative blog posts
+- Book a Visit section allowing customers to schedule an appointment
+- Customer Reviews section displaying testimonials
+- Footer section with contact information and social media links
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Font Awesome (for icons)
+
+## How to Use
+
+1. Clone this repository to your local machine using the following command:
+
+git clone git@github.com:aluochvivian/phase-1-project.git
+
+
+2. Navigate to the project directory:
+
+cd men's-parlor
+
+
+3. Open the `index.html` file in your web browser.
+
+4. Explore the different sections of the website and interact with the available features.
+
+## Customize
+
+You can customize the website by modifying the HTML, CSS, and JavaScript files according to your requirements. Feel free to add or remove sections, change styling, or update the content as needed.
+
+## Credits
+
+- Images: All images used in this project are for demonstration purposes and taken from [Unsplash](https://unsplash.com).
+
+- Font Awesome: The Font Awesome library is used for icons. You can find more information and explore additional icons on the [Font Awesome website](https://fontawesome.com).
+
+## Author
+
+Vivian Aluoch.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
