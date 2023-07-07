@@ -115,7 +115,7 @@ section{
  
  .header .navbar a:hover{
     padding-bottom: 0.5rem;
-    color:var(--primary-color);
+    color:var(--white);
  }
  
  #menu-btn{
@@ -392,13 +392,13 @@ section{
 }
 
 .pricing .box-container .box .price .currency{
-    font-size: 35px;
+    font-size: 23px;
     line-height: 35px;
     font-weight: 300;
 }
 
 .pricing .box-container .box .price .amount{
-    font-size: 58px;
+    font-size: 23px;
     line-height: 45px;
     font-weight: 700;
 }
