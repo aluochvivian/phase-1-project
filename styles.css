@@ -324,8 +324,10 @@ section{
 /* pricing */
 
 .pricing{
-    background: url('images/1.jpg');
+    background: url('images/11.jpeg');
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .pricing .box-container{
@@ -533,7 +535,7 @@ section{
 
 .visit .row form{
     flex: 1 1 40rem;
-    border: 0.1rem solid var(--main-color);
+    border: 0.1rem solid var(--light-bg);
     padding: 2rem;
 }
 
