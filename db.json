@@ -2,7 +2,7 @@
   "prices": [
     {
       "id": "1",
-      "title": "Basic",
+      "title": "Basic - Haircut",
       "time": "1hr",
       "capacity": 5,
       "available-space": 3,
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "title": "Standard",
+      "title": "Standard - Hair Plugs",
       "time": "2hr",
       "capacity": 2,
       "available-space": 1,
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "title": "Classic",
+      "title": "Classic - Styling",
       "time": "3hr",
       "capacity": 1,
       "available-space": 0,
