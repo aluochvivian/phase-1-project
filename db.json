@@ -6,7 +6,7 @@
       "time": "1hr",
       "capacity": 5,
       "available-space": 3,
-      "image": "https://media.istockphoto.com/id/1185955900/photo/barber-shaves-the-beard-of-the-client.jpg?s=1024x1024&w=is&k=20&c=qrUHXYP4sFfnrR8tXXybMiKQkq1rv2R22JzbXK1PvaA="
+      "price": "Ksh 1000"
     },
     {
       "id": "2",
@@ -14,15 +14,15 @@
       "time": "2hr",
       "capacity": 2,
       "available-space": 1,
-      "image": "https://media.istockphoto.com/id/1449561669/photo/barber-brushing-designs-on-a-clients-hair.jpg?s=2048x2048&w=is&k=20&c=-JnUqf-X_GvKVA-5TJPJicC0q0cJBhlSYXLQ8Xlp4f8="
+      "price": "Ksh 1500"
     },
     {
       "id": "3",
       "title": "Classic",
-      "time": "3",
+      "time": "3hr",
       "capacity": 1,
       "available-space": 0,
-      "image": "https://thumbs.dreamstime.com/z/hair-style-stylist-barber-making-haircut-attractive-bearded-man-shop-shaving-razor-vintage-moustache-wax-143464346.jpg"
+      "price": "Ksh 2000"
     }
   ]
 }
