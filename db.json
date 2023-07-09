@@ -5,23 +5,23 @@
       "title": "Basic - Haircut",
       "time": "1hr",
       "capacity": 5,
-      "available-space": 3,
+      "available-space": 5,
       "price": "Ksh 1000"
     },
     {
       "id": "2",
-      "title": "Standard - Hair Plugs",
+      "title": "Standard - Beard Shaving",
       "time": "2hr",
-      "capacity": 2,
-      "available-space": 1,
+      "capacity": 4,
+      "available-space": 4,
       "price": "Ksh 1500"
     },
     {
       "id": "3",
       "title": "Classic - Styling",
       "time": "3hr",
-      "capacity": 1,
-      "available-space": 0,
+      "capacity": 3,
+      "available-space": 3,
       "price": "Ksh 2000"
     }
   ]
